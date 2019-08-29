@@ -3,7 +3,7 @@ p {
   color: #464646;
 }
 
-.container {
+#container {
   max-width: 430px;
   height: 100px;
   border-radius: 15px;
@@ -12,27 +12,27 @@ p {
   display: flex;
 }
 
-.name {
+#name {
   margin-left: 30px;
   font-size: 1.4em;
   margin-bottom: 10px;
 }
 
-.description {
+#description {
   text-transform: capitalize;
   margin-left: 30px;
   margin-top: 0;
   font-size: 1.2em;
 }
 
-.temp {
+#temp {
   margin-left: 20px;
   font-size: 3em;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.icon {
+#icon {
   margin-left: 20px;
   margin-top: auto;
   margin-bottom: auto;
