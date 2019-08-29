@@ -27,10 +27,10 @@ const getWeatherData = fetch(locURL, {
   })
   .then(weather => {
     state.weather = weather;
-    weatherInfo();
+    showWeatherInfo();
   });
 
-const weatherInfo = () => {
+const showWeatherInfo = () => {
   const name = state.weather.name;
   const description = state.weather.weather[0].description;
   const temp = parseInt(state.weather.main.temp - 273.15);
